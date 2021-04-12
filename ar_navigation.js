@@ -49,7 +49,7 @@ function render_elements() {
                             <a-entity gps-entity-place="latitude: ${steps[i].maneuver.location[1]}; longitude: ${steps[i].maneuver.location[0]};">
                                 <a-image 
                                     name="${instruction}"
-                                    src="./assets/${images[image]}"
+                                    src="https://github.com/apoorvelous/geo-ar/blob/main/assets/${images[image]}"
                                     look-at="#step_${i - 1}"
                                     scale="5 5 5"
                                     id="step_${i}"
@@ -65,7 +65,7 @@ function render_elements() {
                             <a-entity gps-entity-place="latitude: ${steps[i].maneuver.location[1]}; longitude: ${steps[i].maneuver.location[0]};">
                                 <a-image 
                                     name="${instruction}"
-                                    src="./assets/ar_start.png"
+                                    src="https://github.com/apoorvelous/geo-    ar/blob/main/assets/ar_start.png"
                                     look-at="#step_${i + 1}"
                                     scale="5 5 5"
                                     id="step_${i}"
